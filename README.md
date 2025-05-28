@@ -1,0 +1,27 @@
+# University Merchandise Store
+
+This is a static university merchandise store built using only HTML, CSS, and JavaScript. It showcases university-branded items such as t-shirts, hoodies, mugs, and more.
+
+## Features
+
+- Product catalog with images and descriptions
+- Responsive layout for mobile and desktop
+- Add to cart functionality using JavaScript
+- Simple cart view with total price
+- Fully frontend-based (no backend)
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript (Vanilla)
+
+## Getting Started
+
+### How to Run the Project
+
+1. Clone or download this repository
+
+   ```bash
+   git clone https://github.com/yourusername/university-merch-store.git
+
