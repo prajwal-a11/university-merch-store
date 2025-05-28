@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amity University Merchandise E-Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    input[type="tel"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #ff9900;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .or {
+      text-align: center;
+      margin: 1.5rem 0 1rem;
+      color: #777;
+    }
+    .social-login {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .social-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: white;
+      cursor: pointer;
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Sign In or Create Account</h2>
+    <form action="homepage.html" method="get">
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="password" name="password" placeholder="Set a Password" required />
+      <button type="submit">Continue</button>
+    </form>
+
+    <div class="or">or sign in with</div>
+
+    <div class="social-login">
+      <a class="social-btn" href="https://accounts.google.com/o/oauth2/auth" target="_blank">
+        <img src="https://img.icons8.com/color/20/google-logo.png" />Continue with Google
+      </a>
+      <a class="social-btn" href="https://www.facebook.com/login.php" target="_blank">
+        <img src="https://img.icons8.com/color/20/facebook-new.png" />Continue with Facebook
+      </a>
+      <a class="social-btn" href="https://appleid.apple.com/auth/authorize" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/20/mac-os.png" />Continue with Apple ID
+      </a>
+      <a class="social-btn" href="https://oauth.vk.com/authorize" target="_blank">
+        <img src="https://img.icons8.com/color/20/vk-com.png" />Continue with VK
+      </a>
+    </div>
+  </div>
+</body>
+</html>
