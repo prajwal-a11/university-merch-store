@@ -1,0 +1,120 @@
+    body {
+      font-family: Arial, sans-serif;
+      padding: 0;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    nav {
+      background-color: #232f3e;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav .nav-links a:hover {
+      color: #bbdefb;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 30px 0 10px;
+      font-size: 2rem;
+      color: #333;
+    }
+
+    .controls {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .controls button {
+      padding: 10px 20px;
+      background-color: #d32f2f;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .controls button:hover {
+      background-color: #b71c1c;
+    }
+
+    .order-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px 40px;
+    }
+
+    .order {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .order h2 {
+      margin-top: 0;
+      color: #1976d2;
+    }
+
+    .order p {
+      margin: 5px 0;
+    }
+
+    .order-buttons {
+      margin-top: 15px;
+    }
+
+    .order-buttons button {
+      padding: 6px 12px;
+      margin-right: 10px;
+      font-size: 0.9rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .buy-again {
+      background-color: #1976d2;
+      color: white;
+    }
+
+    .buy-again:hover {
+      background-color: #1259a5;
+    }
+
+    .delete-order {
+      background-color: #ef5350;
+      color: white;
+    }
+
+    .delete-order:hover {
+      background-color: #d32f2f;
+    }
+
+    .no-orders {
+      text-align: center;
+      color: #999;
+      font-size: 1.2rem;
+      margin-top: 40px;
+    }
+
