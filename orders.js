@@ -58,6 +58,20 @@
       alert(`"${order.name}" has been ordered again.`);
       renderOrders();
     }
+     //remove this
+     
+             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                if (navLinks.classList.contains('nav-active')) {
+                    navLinks.classList.remove('nav-active');
+                }
+            });
+        });
+
 
     // Initial render
     renderOrders();
