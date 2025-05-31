@@ -58,7 +58,7 @@
       alert(`"${order.name}" has been ordered again.`);
       renderOrders();
     }
-     //remove this
+     //remove this Adithya20-afk
      
              document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
@@ -71,6 +71,19 @@
                 }
             });
         });
+     //reremove this Adithya20-afk
+                  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                if (navLinks.classList.contains('nav-active')) {
+                    navLinks.classList.remove('nav-active');
+                }
+            });
+        });
+
 
 
     // Initial render
