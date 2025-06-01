@@ -13,14 +13,6 @@
         return;
       }
 
-    function renderOrders() {
-      container.innerHTML = '';
-
-      if (orders.length === 0) {
-        container.innerHTML = '<p class="no-orders">No orders found.</p>';
-        return;
-      }
-
 
       orders.forEach((order, index) => {
         const orderDiv = document.createElement('div');
