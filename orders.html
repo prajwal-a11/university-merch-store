@@ -66,6 +66,14 @@
         renderOrders();
       }
     }
+	          function deleteAllOrders() {
+      if (confirm("Are you sure you want to delete all orders?")) {
+        localStorage.removeItem('orders');
+        orders = [];
+        renderOrders();
+      }
+    }
+
 
     function deleteOrder(index) {
       if (confirm("Delete this order?")) {
