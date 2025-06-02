@@ -13,6 +13,7 @@
         return;
       }
 
+
       orders.forEach((order, index) => {
         const orderDiv = document.createElement('div');
         orderDiv.className = 'order';
