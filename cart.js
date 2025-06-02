@@ -29,6 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
       createTask(task);
       input.value = '';
     }
+
+  btn.addEventListener('click', () => {
+    const task = input.value.trim();
+    if (task) {
+      createTask(task);
+      input.value = '';
+    }
+
   });
 
   input.addEventListener('keypress', e => {
